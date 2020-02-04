@@ -6,7 +6,7 @@ services:
 bs-platform:
 
   variables:
-    VERSION: "7.0.1"
+    VERSION: "7.1.0"
 
   script:
     - docker build . --no-cache --pull
